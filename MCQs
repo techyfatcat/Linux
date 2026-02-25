@@ -1,0 +1,120 @@
+1.) To wipe all previous output from the terminal screen in a Tesla Block lab: 
+-> clear
+2.) A user wants to reset their login password on a Chitkara workstation. Which command is used? passwd
+-> passwd
+3.) While at SquareOne, you want to see the last 10 commands executed in your current session. What do you type?
+-> history | tail -10
+4.) To exit the Vim editor forcefully without saving changes to a lab file:
+-> :q!
+5.) What type of binaries are typically stored in the /sbin directory of a Punjab regional server?
+-> System admin binaries
+6.) Which command allows a trainer in Edison Block to change the owner of a directory?
+-> chown
+7.) A student in Turing Block needs to verify their own effective username. Which command is most appropriate?
+-> whoami
+8.) To view the IP address and network interface details in Babbage Block, which command is valid?
+-> ifconfig
+9.) To check total disk usage of a specific folder in Noble Hostel in human-readable format, use:
+-> du -sh
+10.) What is the standard command to add a new student user 'Aryan' to the Linux system?
+-> useradd
+11.) To find the absolute path of your current location in Galileo Block, which command is used?
+-> pwd
+12.) Which file stores the encrypted user passwords for the Rajpura campus main server?
+-> /etc/shadow
+13.) Which operator is used to send the output of ps aux into grep for filtering?
+-> |
+14.) You are in /var/log on a Chitkara server and need to jump to your home directory instantly. What is the shortcut?
+-> cd ~
+15.) Which file contains the DNS name server addresses for a terminal in Chandigarh?
+-> /etc/resolv.conf
+16.) A technician at Radio 107.8 FM needs to create an empty file named show_log.txt. Which command is best?
+-> touch show_log.txt
+17.) To hide a sensitive file named paper.pdf in AlphaZone from a standard ls, how should it be renamed?
+-> mv paper.pdf .paper.pdf
+18.) Which directory in the Linux tree is essential for holding the GRUB bootloader files?
+-> /boot
+19.) A student at Franklin Hostel wants to view only the first 10 lines of a long text file. They use:
+-> head
+20.) Which command deletes an empty directory named Old_Labs in BetaZone?
+-> rmdir
+21.) A file in Newton Block has permissions -rwxr-xr--. What is its numeric equivalent?
+-> 754
+22.) To see a summary of disk space used by the /var/log directory specifically, use:
+-> du -sh /var/log
+23.) Which command sorts the lines of a file data.txt numerically?
+-> sort -n
+24.) How do you count the total number of lines containing "failed" in auth.log at the Exploretorium?
+-> grep -c "failed" log
+25.) To find a file result.txt starting the search from the root directory, which is most accurate?
+-> find / -name result.txt
+26.) In the ip addr output, which field reveals the hardware (MAC) address of the card?
+-> link/ether
+27.) What happens when you execute sudo -i on a terminal?
+-> Opens root login shell
+28.) You want to view a large config file in BetaZone page-by-page. Which command is best?
+-> less
+29.) How would a student at Haveli cafeteria add an existing user to the 'sudo' group?
+-> usermod -aG sudo user
+30.) You need to find the binary location and manual page path of the ifconfig command. Use:
+-> whereis ifconfig
+31.) 
+->
+32.)
+->
+33.)
+->
+34.)
+->
+35.)
+->
+36.)
+->
+37.)
+->
+38.)
+->
+39.)
+->
+40.)
+->
+41.)
+->
+42.)
+->
+43.)
+->
+44.)
+->
+45.)
+->
+46.)
+->
+47.)
+->
+48.)
+->
+49.)
+->
+50.)
+->
+51.)
+->
+52.)
+->
+53.)
+->
+54.)
+->
+55.)
+->
+56.)
+->
+57.)
+->
+58.)
+->
+59.)
+->
+60.)
+->
