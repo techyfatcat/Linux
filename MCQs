@@ -58,66 +58,68 @@
 -> usermod -aG sudo user
 30.) You need to find the binary location and manual page path of the ifconfig command. Use:
 -> whereis ifconfig
-31.) 
-->
-32.)
-->
-33.)
-->
-34.)
-->
-35.)
-->
-36.)
-->
-37.)
-->
-38.)
-->
-39.)
-->
-40.)
-->
-41.)
-->
-42.)
-->
-43.)
-->
-44.)
-->
-45.)
-->
-46.)
-->
-47.)
-->
-48.)
-->
-49.)
-->
-50.)
-->
-51.)
-->
-52.)
-->
-53.)
-->
-54.)
-->
-55.)
-->
-56.)
-->
-57.)
-->
-58.)
-->
-59.)
-->
-60.)
-->
+31.) Which command displays a real-time, dynamic view of all running processes on a Chitkara node?
+-> top
+32.) To create a three-level folder Univ/Lab/Linux in one go, which flag is used?
+-> mkdir -p
+33.) A file in AlphaZone requires read/write for the owner and read-only for the group. The octal code is:
+-> 640
+34.) You suspect a bottleneck in the path to the Punjab data center. Which tool traces the path?
+-> traceroute
+35.) While at the Sportorium, you need to check the IP of google.com. Which tool is NOT for DNS?
+-> ip link
+36.) A process in Turing Block is lagging. How do you adjust the priority of an already running PID?
+-> renice
+37.) To change a username from 'staff1' to 'admin1' on a Rajpura server, which command is correct?
+-> usermod -l admin1 staff1
+38.) In /etc/passwd, what is the significance of the 7th (last) field in a user entry?
+-> Default shell
+39.) To permanently modify the server name in Chandigarh, which file must be edited?
+-> /etc/hostname
+40.) Which runlevel is used to shut down a Linux system completely?
+-> Runlevel 0
+41.) You need to copy files from Tesla to Fleming only if they are missing in the destination. Flag?
+-> cp -n
+42.) script.sh has permissions 711. A user who is not the owner/group tries to run it. Result?
+-> Success: has execute
+43.) Which command string correctly lists all processes NOT owned by the 'root' user?
+-> ps aux | grep -v root
+44.) In a Rajpura lab, you see an ARP table. What is being mapped here?
+-> IP to MAC
+45.) Which command provides a "live" tail of /var/log/syslog as new events happen?
+-> tail -f
+46.) To extract exactly lines 500 to 510 from a 1000-line file, which logic is correct?
+-> head -n 510 | tail -n 11
+47.) If /etc/resolv.conf is missing on a Vasco Hostel laptop, what will fail?
+-> Ping to https://www.google.com/url?sa=E&source=gmail&q=google.com
+48.) A loop is stuck in SquareOne. Which signal forces an immediate kill that the process cannot ignore?
+-> kill -9
+49.) If ping 8.8.8.8 works but ping chitkara.edu.in fails, the issue is likely:
+-> DNS resolution 
+50.) You see drwxr-xr-x in ls -l. What does the very first character 'd' represent?
+-> Directory
+51.) A student at Babbage Block ran rm -rf /bin. What is the most immediate consequence?
+-> System becomes unusable
+52.) You set chmod 000 file.txt. Who can still read the content without changing permissions?
+-> The Root user
+53.) To find the size of /etc without including any of its subdirectories' individual files:
+-> du -sh --max-depth=0 /etc
+54.) A Chitkara server is at Runlevel 3. What is the major difference from Runlevel 5?
+-> No GUI
+55.) What is the standard bit-size and format of a MAC address in the Turing Block?
+-> 48-bit Hex
+56.) To remove user 'Arjun' from group 'wifi' but keep him in 'student' group, use:
+-> gpasswd -d Arjun wifi
+   usermod -G student Arjun
+57.) To move x.txt to y.txt and overwrite y.txt without any prompt in a script:
+-> mv -f x.txt y.txt
+58.) To change the group of a file to 'it_staff' when you aren't the owner, you must:
+-> Use chown with sudo
+   Use chgrp with sudo
+59.) Which shell assignment in useradd prevents a user from having an interactive login?
+-> -s /bin/false
+60.) In Recovery Mode, which command confirms which physical partition is the root (/)?
+-> mount | grep 'on /'
 61.) In the Ubuntu directory structure, where are the system log files typically stored?
 -> /var/log
 62.) What does the first '*' represent in a standard crontab entry?
