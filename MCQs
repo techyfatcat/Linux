@@ -118,3 +118,32 @@
 ->
 60.)
 ->
+61.) In the Ubuntu directory structure, where are the system log files typically stored?
+-> /var/log
+62.) What does the first '*' represent in a standard crontab entry?
+-> Minute
+63.) Which command is used to display the contents of a file one page at a time with backward navigation?
+-> less
+64.) Which command is used to remove an empty directory?
+-> rmdir
+65.) Which command is used to display the operating system name and kernel version?
+-> uname
+66.) Which command is used to change the group ownership of a file?
+-> chgrp
+67.) Which command is used to change the current working directory in the terminal?
+-> cd
+68.) Which command is used to see a real-time summary of system processes and resource usage?
+-> top
+69.) Which command displays the terminal name associated with standard input?
+-> tty
+70.) Which command is used to check the connectivity between a local and a remote host?
+-> ping
+71.) If a file has permissions '-rwxr--r--', what is its numeric (octal) representation?
+-> 744
+72.) Which command is used to search for the word 'critical' inside a file named 'app.log'?
+-> grep 'critical' app.log
+73.) Which command allows you to view the last 15 lines of a file named 'system.log'?
+-> tail -n 15 system.log
+74.) Which command adds the user 'dev' to the group 'admin' without removing existing groups?
+-> usermod -aG admin dev
+
