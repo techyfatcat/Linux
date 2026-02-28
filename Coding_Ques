@@ -1,0 +1,29 @@
+1.) Copy the file prog1.txt from the lab1 directory to the lab2 directory (assume both directories already exist under subject)
+
+cp prog1.txt ../lab2/
+
+2.) Move both prog2.txt and prog3.txt from the lab1 directory to the lab2 directory.
+
+mv prog2.txt prog3.txt ../lab2/
+
+3.) Create two directories: lab1 and lab2 under the subject directory. Create three files prog1.txt, prog2.txt, and prog3.txt within the lab1 directory.
+
+mkdir lab1
+mkdir lab2
+cd lab1
+touch prog1.txt
+touch prog2.txt
+touch prog3.txt
+
+4.) Create three users (sysadmin1, sysadmin2, and sysadmin3) with their home directories without assigning passwords or using sudo. Create a supplementary group named rootgroup with a GID of 5001.
+Add all three users to the rootgroup.
+
+useradd -m sysadmin1
+useradd -m sysadmin2
+useradd -m sysadmin3
+
+groupadd -g 5001 rootgroup
+
+usermod -aG rootgroup sysadmin1
+usermod -aG rootgroup sysadmin2
+usermod -aG rootgroup sysadmin3
