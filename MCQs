@@ -148,4 +148,5 @@
 -> tail -n 15 system.log
 74.) Which command adds the user 'dev' to the group 'admin' without removing existing groups?
 -> usermod -aG admin dev
-
+75.) Which command is used to forcefully terminate a process having process ID 2500?
+-> kill -9 2500
