@@ -150,3 +150,31 @@
 -> usermod -aG admin dev
 75.) Which command is used to forcefully terminate a process having process ID 2500?
 -> kill -9 2500
+76.) To find out the total number of lines in a file named students.txt at the Exploretorium, use
+-> wc -l students.txt
+77.) An admin at Rajpura Campus needs to give the "Owner" full permissions, but "Group" and "Others" no permission for a file
+-> chmod 700 file
+78.) A student in Aristotle Hostel wants to rename a file from lab1.txt to final.txt. Which command performs this action?
+-> mv lab1.txt final.txt
+79.) You are in the Sportorium and need to find the IP address of your gateway to troubleshoot the network. Which command do you use?
+-> ip route
+80.) While at Chai Vyanjan, you need to create a file named order.txt without opening an editor. Which command is most efficient?
+-> touch order.txt
+81.) A system admin needs to search the word "Error" in a log file and count how many times it appears. Which pipe is correct?
+-> grep "Error" log | wc -l
+82.) You are checking disk partitions in the Tesla Block. Which command lists all available block devices and their mount points?
+-> lsblk
+83.) Which file in the /etc directory should you edit to change the permanent name of the machine to Chitkara-Server?
+-> /etc/hostname
+84.) A lab technician in the Babbage Block needs to see only the last 5 lines of the system log file. Which command is correct?
+-> tail -5 /var/log/syslog
+85.) To find out which user is currently logged into the AlphaZone server by their username only, use:
+-> whoami
+86.) You are at the Subway outlet and need to verify if the DNS is resolving google.com correctly. Which tool is used for DNS lookup?
+-> dig
+87.) To extract only the 1st and 3rd field from a color-separated file like /etc/passwd, the correct command is:
+-> cut -d: -f1,3 /etc/passwd
+88.) Which directory contains the GRUB bootloader files required to start the Linux OS in the Chitkara labs?
+-> /boot
+89.) In BetaZone, you need to change the user's login name from user1 to super_user. Which command is appropriate?
+-> usermod -l super_user user1
