@@ -27,3 +27,19 @@ groupadd -g 5001 rootgroup
 usermod -aG rootgroup sysadmin1
 usermod -aG rootgroup sysadmin2
 usermod -aG rootgroup sysadmin3
+
+5.) You are in turing/user/docs. There is a temporary file named temp.tmp located in turing/user/. Delete that file using a relative path.
+
+rm ../temp.tmp
+
+6.) A process with PID 999 is unresponsive. Terminate it forcefully. Use exactly one command and verify the termination.
+
+kill -9 999
+
+7.) You are working in squareone/bin. Copy the system.log file located in the sibling directory squareone/logs into your current directory without leaving bin.
+
+cp ../logs/system.log .
+
+8.) You are auditing the Turing workspace. Count all hidden files and folders in your current directory(those starting with a.) excluding the system references and save only the final count into a file named hidden_count.txt
+
+ls -d .[^.]* | wc -l > hidden_count.txt
