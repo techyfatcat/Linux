@@ -178,3 +178,5 @@
 -> /boot
 89.) In BetaZone, you need to change the user's login name from user1 to super_user. Which command is appropriate?
 -> usermod -l super_user user1
+90.) A process in the Fleming Block is unresponsive. You have its PID (1234). How do you force stop it?
+-> kill -9 1234
